@@ -1,0 +1,112 @@
+@import "./config.scss";
+
+header {
+  position: sticky;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $green1;
+  color: white;
+  font-family: "Roboto Medium";
+}
+
+.nav-links {
+  height: 100%;
+  font-size: 20px;
+}
+
+.nav-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+  :first-child {
+    margin-right: 50px;
+  }
+
+  :last-child {
+    margin-left: 50px;
+  }
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+
+  // animations
+  @include transition(0.4s ease-in-out);
+  cursor: pointer;
+  &:hover {
+    text-decoration: none !important;
+    color: black;
+    @include transition(0.4s ease-in-out);
+  }
+}
+
+.nav-item {
+  // animations
+  cursor: pointer;
+  color: black;
+}
+
+.menu-icon {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  color: white;
+  display: none;
+
+  // animations
+  @include transition(0.4s ease-in-out);
+  cursor: pointer;
+  &:hover {
+    text-decoration: none !important;
+    color: black;
+    @include transition(0.4s ease-in-out);
+  }
+}
+
+@media (max-width: 600px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-padding {
+    height: 56px;
+  }
+  .menu-icon {
+    display: flex;
+  }
+  .nav-links ul {
+    flex-direction: column;
+    :first-child {
+      margin: 0px;
+    }
+    :last-child {
+      margin: 0px;
+    }
+    a {
+      padding: .5rem;
+    }
+  }
+}
+
+h3 {
+  font-family: "Roboto-Regular";
+  font-size: 24px;
+  font-weight: normal;
+}
+
+p {
+  font-family: "Roboto-Light";
+  font-size: 16px;
+}
