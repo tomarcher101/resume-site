@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Header/>
+        <Header className="sticky"/>
         <Switch>
           <Route exact path="/">
             <ProfilePage/>

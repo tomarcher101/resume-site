@@ -1,15 +1,18 @@
 @import "./config.scss";
 
-header {
-  position: sticky;
-}
-
 nav {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: $green1;
   color: white;
+  @include boxShadow(0px, 1px, 3px, 0px, #919191);
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 100; /* this is optional and should be different for every project */
 }
 
 .nav-links {
