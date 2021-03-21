@@ -36,9 +36,13 @@
   grid-template-columns: 1fr 1fr 1fr;
   width: 820px;
   color: white;
-  font-family: "Roboto-Thin";
+  font-family: "Roboto-Light";
   font-size: 14px;
   margin-bottom: 40px;
+}
+.contact-link {
+  color: white;
+  text-decoration: none;
 }
 @media (max-width: 895px) {
   .contact-mid {
@@ -49,7 +53,6 @@
 .contact-mid-left {
   display: flex;
   align-items: center;
-  // min-width: 273px;
   text-align: left;
   justify-content: left;
 }
@@ -60,7 +63,6 @@
 .contact-mid-mid {
   display: flex;
   align-items: center;
-  // min-width: 273px;
   text-align: center;
   justify-content: center;
 }
@@ -71,7 +73,6 @@
 .contact-mid-right {
   display: block;
   align-items: center;
-  // min-width: 273px;
 }
 .contact-detail-right {
   display: flex;
@@ -88,7 +89,7 @@
   grid-template-columns: [left] 1fr [middle] 1fr [right] 1fr;
   margin-bottom: 60px;
   font-size: 14px;
-  font-family: "Roboto-Thin";
+  font-family: "Roboto-Light";
   color: white;
 }
 .contact-bottom-mid {

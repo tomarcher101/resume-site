@@ -31,6 +31,26 @@ nav {
   }
 }
 
+@media (max-width: 760px) {
+  .nav-links {
+    width: 100%;
+  }
+  .nav-links ul {
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+  }
+  .nav-links li {
+    flex-grow: 1;
+  }
+  .nav-links ul :first-child{
+    margin: 0px;
+  }
+  .nav-links ul :last-child{
+    margin: 0px;
+  }
+}
+
 .nav-links li {
   list-style: none;
 }
@@ -55,6 +75,10 @@ nav {
   // animations
   cursor: pointer;
   color: black;
+}
+
+.nav-item a {
+  text-align: center;
 }
 
 .menu-icon {

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaTimes, FaBars } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Header() {
   const [click, setClick] = useState(false);
@@ -16,10 +17,13 @@ function Header() {
         <div className={ click ? "nav-links show" : "nav-links"}>
           <ul>
             <li className="nav-item">
-              <a href="#">Profile</a>
+              <Link to="/">About Me</Link>
             </li>
             <li className="nav-item">
-              <a href="#">Projects</a>
+              <Link to="/projects">Projects</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </div>

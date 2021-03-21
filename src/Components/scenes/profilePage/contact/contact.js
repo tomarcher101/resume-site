@@ -16,39 +16,39 @@ function Contact() {
         </div>
         <div className="contact-mid">
           <div className="contact-mid-left">
-            <span className="contact-detail-left">
+            <a className="contact-link contact-detail-left" href={`mailto:${email}`} target="_blank">
               <img className="contact-icon" src="/Icons/at.svg" alt="" />
               <span>{email}</span>
-            </span>
+            </a>
           </div>
           <div className="contact-mid-mid">
-            <span className="contact-detail-mid">
+            <a className="contact-link contact-detail-mid" href={`https://${linkedin}`} target="_blank">
               <img className="contact-icon" src="/Icons/linkedin.svg" alt="" />
               <span>{linkedin}</span>
-            </span>
+            </a>
           </div>
           <div className="contact-mid-right">
-            <span className="contact-detail-right">
+            <a className="contact-link contact-detail-right" href={`https://${github}`} target="_blank">
               <img
                 className="contact-icon"
                 src="/Icons/github-logo.svg"
                 alt=""
               />
               <span>{github}</span>
-            </span>
+            </a>
           </div>
         </div>
         <div className="contact-bottom">
           <div className="contact-bottom-left"></div>
           <div className="contact-bottom-mid">
-            <span className="contact-detail-right">
+            <a className="contact-link contact-detail-right" href={`tel:${phoneNo}`}>
               <img
                 className="contact-icon"
                 src="/Icons/smartphone.svg"
                 alt=""
               />
               <span>{phoneNo}</span>
-            </span>
+            </a>
           </div>
           <div className="contact-bottom-right"></div>
         </div>
