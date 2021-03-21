@@ -9,7 +9,7 @@ function Header() {
   return (
     <header>
       <nav>
-        <div className="nav-padding"></div>
+        {click ?  <div></div> : <div className="nav-padding"></div>}
         <div className="menu-icon" onClick={handleClick}>
           {click ? <FaTimes size={25} /> : <FaBars size={25} />}
         </div>

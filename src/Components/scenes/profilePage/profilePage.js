@@ -1,7 +1,6 @@
 import React from "react";
 import ProfileIntro from "./profileIntro/profileIntro";
 import Listing from "./listing/listing";
-import Education from "./education/eduaction";
 import Contact from "./contact/contact";
 
 const jobListings = [
