@@ -10,7 +10,6 @@ nav {
   align-items: center;
   background-color: $green1;
   color: white;
-  font-family: "Roboto Medium";
 }
 
 .nav-links {
@@ -86,6 +85,12 @@ nav {
   .menu-icon {
     display: flex;
   }
+  .nav-links {
+    display: none;
+  }
+  .show {
+    display: flex;
+  }
   .nav-links ul {
     flex-direction: column;
     :first-child {
@@ -94,19 +99,5 @@ nav {
     :last-child {
       margin: 0px;
     }
-    a {
-      padding: .5rem;
-    }
   }
-}
-
-h3 {
-  font-family: "Roboto-Regular";
-  font-size: 24px;
-  font-weight: normal;
-}
-
-p {
-  font-family: "Roboto-Light";
-  font-size: 16px;
 }

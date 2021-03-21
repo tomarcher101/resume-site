@@ -1,0 +1,38 @@
+.jl-outer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 60px;
+}
+.jl-left {
+  text-align: left;
+  justify-content: left;
+  padding-right: 20px;
+}
+.jl-right {
+  text-align: left;
+  justify-content: left;
+}
+h1 {
+  font-size: 24px;
+}
+p {
+  font-size: 16px;
+}
+.black {
+  color: black;
+}
+.black-light {
+  color: #171717;
+}
+.grey-light {
+  color: #595959;
+}
+.brown {
+  color: #8A8787;
+}
+@media (max-width: 600px) {
+  .jl-outer-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

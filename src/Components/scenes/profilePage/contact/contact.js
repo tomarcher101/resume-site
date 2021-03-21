@@ -1,4 +1,5 @@
 import React from "react";
+import "./contact.scss"
 
 const email = "thomastarcher@icloud.com";
 const linkedin = "linkedin.com/in/tom-archer-229598a5";

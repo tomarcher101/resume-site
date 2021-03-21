@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { FaTimes, FaBars } from "react-icons/fa";
-import NavLinks from "./navLinks.js";
 
 function Header() {
   const [click, setClick] = useState(false);
@@ -14,7 +13,16 @@ function Header() {
         <div className="menu-icon" onClick={handleClick}>
           {click ? <FaTimes size={25} /> : <FaBars size={25} />}
         </div>
-        <NavLinks />
+        <div className={ click ? "nav-links show" : "nav-links"}>
+          <ul>
+            <li className="nav-item">
+              <a href="#">Profile</a>
+            </li>
+            <li className="nav-item">
+              <a href="#">Projects</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
   );

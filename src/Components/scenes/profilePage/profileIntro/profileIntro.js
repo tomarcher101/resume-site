@@ -1,4 +1,5 @@
 import React from "react";
+import "./profileIntro.scss"
 
 function ProfileIntro() {
   return (
