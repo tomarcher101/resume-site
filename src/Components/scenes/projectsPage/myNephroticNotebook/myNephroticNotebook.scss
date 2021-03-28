@@ -1,0 +1,79 @@
+$blue1: #4797EA;
+$blue2: #3171B4;
+
+.mnn-container {
+  margin-top: 120px;
+  margin-bottom: 100px;
+  p {
+    font-size: 22px;
+    font-family: "Roboto-Thin";
+    color: $blue1;
+  }
+}
+.blue1 {
+  color: $blue1;
+}
+.blue2 {
+  color: $blue2;
+}
+.rob-bold {
+  font-family: "Roboto-Bold";
+}
+.rob-light {
+  font-family: "Roboto-Light";
+}
+.mnn-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content 1fr;
+
+  h1 {
+    font-family: "KGSecondChances";
+    font-size: 40px;
+    color: $blue1;
+    margin-top: 0px;
+  }
+}
+.mnn-1-title {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.mnn-1-text {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.mnn-1-picture {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  display: flex;
+  align-items: center;
+  img {
+    max-width: 100%;
+  }
+}
+.mnn-2 {
+  padding: 30px 0px 45px 0px;
+}
+.mnn-2-text {
+  p {
+    font-size: 18px;
+  }
+}
+.mnn-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.mnn-3-image-container {
+  img {
+    max-width: 100%;
+  }
+}

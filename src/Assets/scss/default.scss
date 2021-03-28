@@ -4,8 +4,8 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: $green1;
-  color: white;
+  // background-color: $green1;
+  // color: white;
   @include boxShadow(0px, 1px, 3px, 0px, #919191);
 }
 
@@ -69,9 +69,32 @@ nav {
   cursor: pointer;
   &:hover {
     text-decoration: none !important;
-    color: black;
+    color: $grey1;
     @include transition(0.4s ease-in-out);
   }
+}
+
+.nav-green {
+  background-color: $green1;
+  color: white;
+  transition: all 1s linear;
+  a {
+    color: white;
+    &:hover {
+      color: $grey1;
+    }
+  }  
+}
+
+.nav-white {
+  background-color: $grey1;
+  transition: all 1s linear;
+  a {
+    color: white;
+    &:hover {
+      color: $green1;
+    }
+  }  
 }
 
 .nav-item {
@@ -88,7 +111,6 @@ nav {
   position: absolute;
   top: 1rem;
   right: 2rem;
-  color: white;
   display: none;
 
   // animations
@@ -96,8 +118,24 @@ nav {
   cursor: pointer;
   &:hover {
     text-decoration: none !important;
-    color: black;
+    color: $grey1;
     @include transition(0.4s ease-in-out);
+  }
+}
+
+.burger-green {
+  color: white;
+  transition: all 1s linear;
+  &:hover {
+    color: $grey1;
+  }
+}
+
+.burger-white {
+  color: $grey1;
+  transition: all 1s linear;
+  &:hover {
+    color: $green1;
   }
 }
 

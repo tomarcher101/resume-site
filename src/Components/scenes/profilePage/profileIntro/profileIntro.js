@@ -1,10 +1,10 @@
 import React from "react";
-import "./profileIntro.scss"
+import "./profileIntro.scss";
 
 function ProfileIntro() {
   return (
-    <div class="pi-outer-container">
-      <div class="pi-profile-intro-container">
+    <div className="pi-outer-container" id="top">
+      <div className="pi-profile-intro-container">
         <div className="pi-top">
           <h1 className="pi-header-name">Tom Archer</h1>
           <hr />

@@ -8,7 +8,7 @@ const phoneNo = "+44 7508236582";
 
 function Contact() {
   return (
-    <div className="contact-outer-container">
+    <div className="contact-outer-container" id="contact-div">
       <div className="contact-inner-container">
         <div className="contact-top">
           <h1 className="contact-header-name">Contact</h1>

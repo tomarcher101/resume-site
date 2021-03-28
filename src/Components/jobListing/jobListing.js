@@ -6,7 +6,7 @@ function JobListing(props) {
     <div className="jl-outer-container">
       <div className="jl-left">
         <h1 className={props.h1Color + " jl-name-header"}>{props.companyName}</h1>
-        <p className={props.sub1Color}>{props.jobDate}</p>
+        <p className={props.sub1Color + " jl-date"}>{props.jobDate}</p>
       </div>
       <div className="jl-right">
         <h1 className={props.h2Color + " jl-name-header" }>{props.jobTitle}</h1>
