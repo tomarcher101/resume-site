@@ -17,17 +17,14 @@ function ProfileIntro() {
             </div>
             <div>
               <p>
-                I’m a full-stack software engineer with a love for all things
-                development!
+                I’m a software developer with a love for all things development!
               </p>
               <p>
-                While my main passion is web and app development, I dabble in pretty
-                much everything.
+                While my main passion is web and app development, I dabble in
+                pretty much everything. I like to keep full-stack, getting the
+                best of both worlds!
               </p>
-              <p>
-                I also sometimes do stuff without a keyboard (sometimes). Game of
-                footy or a mix anyone?
-              </p>
+              <p>I also sometimes do stuff away from the computer.</p>
             </div>
           </div>
           <div className="pi-middle">
@@ -39,20 +36,30 @@ function ProfileIntro() {
           </div>
           <div className="pi-right">
             <div className="pi-section-title">
-              <h3 style={{color: "#2CBFBB"}}>About Me</h3>
+              <h3 style={{ color: "#2CBFBB" }}>About Me</h3>
             </div>
             <div className="pi-details">
-              <span><b>Name:</b></span>
-              <br/>
-              <span>Tom Archer</span>
-              <br/><br/>
-              <span><b>Age:</b></span>
-              <br/>
-              <span>25</span>
-              <br/><br/>
-              <span><b>Location:</b></span>
-              <br/>
-              <span>London, UK</span>
+              <p>
+                <span>
+                  <b>Name:</b>
+                </span>
+                <br />
+                <span>Tom Archer</span>
+              </p>
+              <p>
+                <span>
+                  <b>Age:</b>
+                </span>
+                <br />
+                <span>25</span>
+              </p>
+              <p>
+                <span>
+                  <b>Location:</b>
+                </span>
+                <br />
+                <span>London</span>
+              </p>
             </div>
           </div>
         </div>

@@ -4,6 +4,7 @@ import "./listing.scss";
 
 function Listing(props) {
   const bg = `bg-${props.bg}`;
+  // const line = `line-${props.bg}`
   const line = `line-${props.bg}`
 
   const listingJsx = [];
@@ -15,6 +16,7 @@ function Listing(props) {
         jobDate={item.jobDate}
         jobTitle={item.jobTitle}
         jobDescription={item.jobDescription}
+        link={item.link}
         h1Color={props.h1Color}
         h2Color={props.h2Color}
         sub1Color={props.sub1Color}

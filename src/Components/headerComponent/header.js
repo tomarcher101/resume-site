@@ -36,9 +36,12 @@ class Header extends React.Component {
           <ul>
             <li className="nav-item">
               <HashLink
-                to="/#top"
+                to="/"
                 smooth
-                onClick={(e) => this.setHeaderColor(e, "green")}
+                onClick={(e) => {
+                  this.setHeaderColor(e, "green");
+                  window.scrollTo({top: 0, behavior: 'smooth'})
+                }}
               >
                 About Me
               </HashLink>
@@ -46,7 +49,7 @@ class Header extends React.Component {
             <li className="nav-item">
               <Link
                 to="/projects"
-                onClick={(e) => this.setHeaderColor(e, "white")}
+                onClick={(e) => this.setHeaderColor(e, "green")}
               >
                 Projects
               </Link>
@@ -55,7 +58,9 @@ class Header extends React.Component {
               <HashLink
                 smooth
                 to="/#contact-div"
-                onClick={(e) => this.setHeaderColor(e, "green")}
+                onClick={(e) => {
+                  this.setHeaderColor(e, "green");
+                }}
               >
                 Contact
               </HashLink>

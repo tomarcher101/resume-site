@@ -77,9 +77,15 @@
 }
 
 .pi-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .pi-section-title {
+  h3 {
+    color: #2cbfbb;
+  }
 }
 
 @media (max-width: 600px) {
