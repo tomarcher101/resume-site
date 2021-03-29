@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="21px" viewBox="0 0 28 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>menu</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="320" height="40"></rect>
+        <filter x="-3.0%" y="-21.2%" width="105.9%" height="147.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.568444293   0 0 0 0 0.568444293   0 0 0 0 0.568444293  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile" transform="translate(-272.000000, -9.000000)">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#2CBFBB" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="menu" transform="translate(272.000000, 9.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                <path d="M26.8333333,12 L1.16666667,12 C0.522664406,12 0,11.3280029 0,10.5 C0,9.67199709 0.522664406,9 1.16666667,9 L26.8333333,9 C27.4773356,9 28,9.67199709 28,10.5 C28,11.3280029 27.4773356,12 26.8333333,12 Z" id="Path"></path>
+                <path d="M26.8333333,3 L1.16666667,3 C0.522664406,3 0,2.32800291 0,1.5 C0,0.671997094 0.522664406,0 1.16666667,0 L26.8333333,0 C27.4773356,0 28,0.671997094 28,1.5 C28,2.32800291 27.4773356,3 26.8333333,3 Z" id="Path"></path>
+                <path d="M26.8333333,21 L1.16666667,21 C0.522664406,21 0,20.3280029 0,19.5 C0,18.6719971 0.522664406,18 1.16666667,18 L26.8333333,18 C27.4773356,18 28,18.6719971 28,19.5 C28,20.3280029 27.4773356,21 26.8333333,21 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

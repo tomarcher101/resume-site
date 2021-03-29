@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/resume-site/static/css/main.2f9f895a.chunk.css",
+    "main.js": "/resume-site/static/js/main.d3d2eca3.chunk.js",
+    "main.js.map": "/resume-site/static/js/main.d3d2eca3.chunk.js.map",
+    "runtime-main.js": "/resume-site/static/js/runtime-main.2c510830.js",
+    "runtime-main.js.map": "/resume-site/static/js/runtime-main.2c510830.js.map",
+    "static/js/2.a1f735f8.chunk.js": "/resume-site/static/js/2.a1f735f8.chunk.js",
+    "static/js/2.a1f735f8.chunk.js.map": "/resume-site/static/js/2.a1f735f8.chunk.js.map",
+    "static/js/3.06b4a86f.chunk.js": "/resume-site/static/js/3.06b4a86f.chunk.js",
+    "static/js/3.06b4a86f.chunk.js.map": "/resume-site/static/js/3.06b4a86f.chunk.js.map",
+    "index.html": "/resume-site/index.html",
+    "static/css/main.2f9f895a.chunk.css.map": "/resume-site/static/css/main.2f9f895a.chunk.css.map",
+    "static/js/2.a1f735f8.chunk.js.LICENSE.txt": "/resume-site/static/js/2.a1f735f8.chunk.js.LICENSE.txt",
+    "static/media/contact.scss": "/resume-site/static/media/Roboto-Thin.c38fab23.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2c510830.js",
+    "static/js/2.a1f735f8.chunk.js",
+    "static/css/main.2f9f895a.chunk.css",
+    "static/js/main.d3d2eca3.chunk.js"
+  ]
+}
