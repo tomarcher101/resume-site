@@ -8,15 +8,19 @@ export default function myNephroticNotebook() {
         <div className="mnn-1-title">
           <h1>My Nephrotic Notebook</h1>
         </div>
-        <div className="mnn-1-text">
+        <div className="mnn-1-text fs-18 rob-reg">
           <p>
             I led a team of 3 engineers that built a mobile app for{" "}
-            <span className="rob-light blue2">DRIVE</span> at
-            <span className="rob-light blue2">
+            <span className="rob-med blue2">DRIVE</span> at
+            <span className="rob-med blue2">
               {" "}
               Great Ormond Street Hospital
             </span>
             .
+          </p>
+          <p>
+            The app was one of three chosen to be showcased at{" "}
+            <span className="blue2 rob-med">GOSH Conference 2019</span>.
           </p>
           <p>
             The app gave children suffering from nephrotic syndrome a more
@@ -24,13 +28,7 @@ export default function myNephroticNotebook() {
             way to access this data.
           </p>
           <p>
-            The app was one of three chosen to be showcased at{" "}
-            <span className="blue2 rob-light">GOSH Conference 2019</span>.
-          </p>
-          <p>
-            It was built using <span className="rob-bold">Ionic</span> and{" "}
-            <span className="rob-bold">Angular</span>, and used an SQLite
-            backend.
+            It was given the highest mark of anyone on our Computer Science MSc course!
           </p>
         </div>
         <div className="mnn-1-picture">
@@ -40,7 +38,7 @@ export default function myNephroticNotebook() {
       <div className="mnn-2">
         <div className="mnn-2-text">
           {/* <p>
-            The goal of the app was to provide children suffering from <span className="rob-light blue2">
+            The goal of the app was to provide children suffering from <span className="rob-bold blue2">
               nephrotic
               syndrome
             </span> a more engaging way to monitor their disease than the
@@ -55,7 +53,12 @@ export default function myNephroticNotebook() {
             The data collected was also easily exportable into csv which could
             be sent to their doctor via the app.
           </p> */}
-          <p>
+          <p className="rob-reg fs-24">
+            It was built using <span className="rob-bold">Ionic</span> and{" "}
+            <span className="rob-bold">Angular</span>, and used an SQLite
+            backend.
+          </p>
+          <p className="rob-reg fs-24">
             It was also the first time I designed the UI/UX of an application
             myself, which I did using
             <span className="rob-bold"> Sketch</span>. Below are some

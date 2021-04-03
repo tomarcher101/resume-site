@@ -13,7 +13,7 @@ function ProfileIntro() {
         <div className="pi-bottom">
           <div className="pi-left">
             <div className="pi-section-title">
-              <h3>Hi. I'm Tom!</h3>
+              <h3 className="rob-reg">Hi. I'm Tom!</h3>
             </div>
             <div>
               <p>
@@ -24,7 +24,7 @@ function ProfileIntro() {
                 pretty much everything. I like to keep full-stack, getting the
                 best of both worlds!
               </p>
-              <p>I also sometimes do stuff away from the computer.</p>
+              <p>I also sometimes do stuff away from the computer!</p>
             </div>
           </div>
           <div className="pi-middle">
@@ -36,26 +36,26 @@ function ProfileIntro() {
           </div>
           <div className="pi-right">
             <div className="pi-section-title">
-              <h3 style={{ color: "#2CBFBB" }}>About Me</h3>
+              <h3 style={{ color: "#2CBFBB" }} className="rob-reg">About Me</h3>
             </div>
             <div className="pi-details">
               <p>
                 <span>
-                  <b>Name:</b>
+                  <b className="grey-light">Name:</b>
                 </span>
                 <br />
                 <span>Tom Archer</span>
               </p>
               <p>
                 <span>
-                  <b>Age:</b>
+                  <b className="grey-light">Age:</b>
                 </span>
                 <br />
                 <span>25</span>
               </p>
               <p>
                 <span>
-                  <b>Location:</b>
+                  <b className="grey-light">Location:</b>
                 </span>
                 <br />
                 <span>London</span>

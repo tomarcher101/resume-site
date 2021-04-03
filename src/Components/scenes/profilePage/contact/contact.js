@@ -39,8 +39,6 @@ function Contact() {
           </div>
         </div>
         <div className="contact-bottom">
-          <div className="contact-bottom-left"></div>
-          <div className="contact-bottom-mid">
             <a className="contact-link contact-detail-right" href={`tel:${phoneNo}`}>
               <img
                 className="contact-icon"
@@ -50,8 +48,6 @@ function Contact() {
               <span>{phoneNo}</span>
             </a>
           </div>
-          <div className="contact-bottom-right"></div>
-        </div>
         <hr className="contact-top-line"/>
       </div>
     </div>

@@ -8,8 +8,8 @@ class Header extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      navClass: "nav-green",
-      burgerClass: "burger-green",
+      navClass: "nav-white",
+      burgerClass: "burger-white",
       isClicked: false,
     };
   }
@@ -39,7 +39,7 @@ class Header extends React.Component {
                 to="/"
                 smooth
                 onClick={(e) => {
-                  this.setHeaderColor(e, "green");
+                  // this.setHeaderColor(e, "green");
                   window.scrollTo({top: 0, behavior: 'smooth'})
                 }}
               >
@@ -49,7 +49,7 @@ class Header extends React.Component {
             <li className="nav-item">
               <Link
                 to="/projects"
-                onClick={(e) => this.setHeaderColor(e, "green")}
+                // onClick={(e) => this.setHeaderColor(e, "green")}
               >
                 Projects
               </Link>
@@ -58,9 +58,9 @@ class Header extends React.Component {
               <HashLink
                 smooth
                 to="/#contact-div"
-                onClick={(e) => {
-                  this.setHeaderColor(e, "green");
-                }}
+                // onClick={(e) => {
+                //   this.setHeaderColor(e, "green");
+                // }}
               >
                 Contact
               </HashLink>

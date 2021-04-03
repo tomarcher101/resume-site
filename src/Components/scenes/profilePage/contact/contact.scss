@@ -94,8 +94,8 @@
   padding-right: 10px;
 }
 .contact-bottom {
-  display: grid;
-  grid-template-columns: [left] 1fr [middle] 1fr [right] 1fr;
+  display: flex;
+  justify-content: center;
   margin-bottom: 60px;
   font-size: 14px;
   font-family: "Roboto-Light";

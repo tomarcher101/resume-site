@@ -1,10 +1,55 @@
 @import "./config.scss";
 
+// Colors
+.black {
+  color: black;
+}
+.black-light {
+  color: #171717;
+}
+.brown {
+  color: #595959;
+}
+.grey-light {
+  color: #8A8787;
+}
+.rob-thin {
+  font-family: "Roboto-Thin";
+}
+.rob-light {
+  font-family: "Roboto-Light";
+}
+.rob-reg {
+  font-family: "Roboto-Regular";
+}
+.rob-med {
+  font-family: "Roboto-Medium";
+}
+.rob-bold {
+  font-family: "Roboto-Bold";
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.fs-24 {
+  font-size: 24px;
+}
+
 nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  // background-color: $green1;
+  // height: 70px;
+  // background-color: $primary1;
   // color: white;
   @include boxShadow(0px, 1px, 3px, 0px, #919191);
 }
@@ -17,13 +62,16 @@ nav {
 
 .nav-links {
   height: 100%;
-  font-size: 20px;
+  // font-size: 20px;
 }
 
 .nav-links ul {
   margin: 0;
   padding: 0;
   display: flex;
+  font-family: "Roboto-Regular";
+  font-size: 20px;
+  height: 100%;
 
   :first-child {
     margin-right: 50px;
@@ -59,6 +107,7 @@ nav {
 }
 
 .nav-links a {
+  line-height: 32px;
   display: block;
   text-decoration: none;
   color: white;
@@ -69,41 +118,41 @@ nav {
   cursor: pointer;
   &:hover {
     text-decoration: none !important;
-    color: $grey1;
+    color: $mouseover1;
     @include transition(0.4s ease-in-out);
   }
 }
 
 .nav-green {
-  background-color: $green1;
+  background-color: $primary1;
   color: white;
   transition: all 1s linear;
   a {
     color: white;
     &:hover {
-      color: $grey1;
+      color: $mouseover1;
     }
   }  
 }
 
 // .nav-green {
-//   background-color: $grey1;
+//   background-color: $mouseover1;
 //   transition: all 1s linear;
 //   a {
 //     color: white;
 //     &:hover {
-//       color: $green1;
+//       color: $primary1;
 //     }
 //   }  
 // }
 
 .nav-white {
-  background-color: $grey1;
+  background-color: $mouseover1;
   transition: all 1s linear;
   a {
     color: white;
     &:hover {
-      color: $green1;
+      color: $primary1;
     }
   }  
 }
@@ -123,13 +172,14 @@ nav {
   top: 1rem;
   right: 2rem;
   display: none;
+  // line-height: 40px;
 
   // animations
   @include transition(0.4s ease-in-out);
   cursor: pointer;
   &:hover {
     text-decoration: none !important;
-    color: $grey1;
+    color: $mouseover1;
     @include transition(0.4s ease-in-out);
   }
 }
@@ -138,15 +188,15 @@ nav {
   color: white;
   transition: all 1s linear;
   &:hover {
-    color: $grey1;
+    color: $mouseover1;
   }
 }
 
 .burger-white {
-  color: $grey1;
+  color: white;
   transition: all 1s linear;
   &:hover {
-    color: $green1;
+    color: $primary1;
   }
 }
 

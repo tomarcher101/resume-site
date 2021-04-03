@@ -2,11 +2,11 @@ $blue1: #4797EA;
 $blue2: #3171B4;
 
 .mnn-container {
-  margin-top: 120px;
-  margin-bottom: 100px;
+  margin-top: 110px;
+  margin-bottom: 110px;
   p {
-    font-size: 22px;
-    font-family: "Roboto-Thin";
+    // font-size: 22px;
+    font-family: "Roboto-Light";
     color: $blue1;
   }
 }
@@ -15,12 +15,6 @@ $blue2: #3171B4;
 }
 .blue2 {
   color: $blue2;
-}
-.rob-bold {
-  font-family: "Roboto-Bold";
-}
-.rob-light {
-  font-family: "Roboto-Light";
 }
 .mnn-1 {
   display: grid;
@@ -61,7 +55,7 @@ $blue2: #3171B4;
   }
 }
 .mnn-2 {
-  padding: 0px 0px 20px 0px;
+  padding: 40px 0px 40px 0px;
 }
 .mnn-2-text {
   p {
@@ -92,6 +86,10 @@ $blue2: #3171B4;
     display: flex;
     justify-content: center;
     padding: 10px;
+    margin-top: 25px;
+  }
+  .mnn-2 {
+    text-align: center;
   }
   .mnn-3 {
     display: grid;

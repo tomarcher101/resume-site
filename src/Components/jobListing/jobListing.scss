@@ -2,46 +2,28 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 60px;
+
+  h1 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 16px;
+  }
 }
 .jl-left {
   text-align: left;
   justify-content: left;
   padding-right: 20px;
-  h1 {
-    font-family: "Roboto-Bold";
-  }
 }
 .jl-right {
   text-align: left;
   justify-content: left;
-  h1 {
-    font-family: "Roboto-Thin";
-  }
   a {
-    font-family: "Roboto-Light";
-    color: #24BAB6;
+    color: #24bab6;
   }
-}
-h1 {
-  font-size: 24px;
-}
-p {
-  font-size: 16px;
 }
 .jl-date {
   margin-bottom: 0px;
-}
-.black {
-  color: black;
-}
-.black-light {
-  color: #171717;
-}
-.brown {
-  color: #595959;
-}
-.grey-light {
-  color: #8A8787;
 }
 @media (max-width: 600px) {
   .jl-outer-container {
